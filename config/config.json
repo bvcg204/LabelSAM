@@ -1,0 +1,28 @@
+{
+    "Segmentation": {
+        "auto_save": true,
+        "color_map": {
+            "Class 1": "#ff0000",
+            "类别3": "#54d58e",
+            "类别2": "#4a37bf"
+        },
+        "cur_category": "类别3",
+        "cur_model": "sam2_small",
+        "opacity": 6,
+        "save_path": "D:/code/pyqt_progrem/labelSAM/results"
+    },
+    "MainWindow": {
+        "DpiScale": 1.5,
+        "Language": "zh_CN"
+    },
+    "Model": {
+        "sam2_base_plus": "D:/code/pyqt_progrem/segment-anything-2-main/checkpoints/sam2_hiera_base_plus.pt",
+        "sam2_large": "D:/code/pyqt_progrem/segment-anything-2-main/checkpoints/sam2_hiera_tiny.pt",
+        "sam2_small": "D:\\code\\pyqt_progrem\\segment-anything-2-main\\checkpoints\\sam2_hiera_small.pt",
+        "sam2_tiny": "D:\\code\\pyqt_progrem\\segment-anything-2-main\\checkpoints\\sam2_hiera_tiny.pt"
+    },
+    "QFluentWidgets": {
+        "ThemeColor": "#ff21aa53",
+        "ThemeMode": "Light"
+    }
+}
