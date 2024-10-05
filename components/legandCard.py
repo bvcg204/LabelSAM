@@ -42,8 +42,14 @@ class EditableLabel(QWidget):
             return
         old_text=self.label.text()
         new_text = self.line_edit.text()
-        self.categoryNameChanged.emit(old_text,new_text)
-        self.label.setText(new_text)
+        color_map = cfg.get(cfg.color_map)
+        # 不允许类别重名
+        if new_text in color_map:
+            self.label.setText(old_text)
+            self.line_edit.setText(old_text)
+        else:
+            self.categoryNameChanged.emit(old_text,new_text)
+            self.label.setText(new_text)
         self.line_edit.hide()
         self.label.show()
 

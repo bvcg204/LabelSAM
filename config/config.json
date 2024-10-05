@@ -2,11 +2,13 @@
     "Segmentation": {
         "auto_save": true,
         "color_map": {
-            "Class 1": "#ff0000",
+            "类别1": "#ff0000",
+            "类别2": "#afdf7e",
             "类别3": "#54d58e",
-            "类别2": "#4a37bf"
+            "类别4": "#9a33b9",
+            "类别5": "#2ff2d8"
         },
-        "cur_category": "类别3",
+        "cur_category": "类别5",
         "cur_model": "sam2_small",
         "opacity": 6,
         "save_path": "D:/code/pyqt_progrem/labelSAM/results"
